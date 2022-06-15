@@ -1,0 +1,30 @@
+{
+  "name": "jest-incremental",
+  "version": "0.0.0",
+  "type": "module",
+  "description": "A package which tells you how much new code coverage is there for a PR",
+  "main": "public/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./node_modules/.bin/esbuild src/index.js --bundle --minify --platform=node --outdir=public --target=node14"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bhramaand/Jest-Incremental.git"
+  },
+  "keywords": [
+    "coverage",
+    "incremental",
+    "incremental",
+    "coverage"
+  ],
+  "author": "Lalit Atrish",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bhramaand/Jest-Incremental/issues"
+  },
+  "homepage": "https://github.com/bhramaand/Jest-Incremental#readme",
+  "devDependencies": {
+    "esbuild": "^0.14.43"
+  }
+}
